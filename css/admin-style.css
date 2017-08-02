@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+	div.ap_settings_div {
+		background:url("../images/icon-128x128.png") no-repeat right 45px;
+		background-size:100px 100px;
+	}
+	div.ap_settings_div .form-table td{
+		vertical-align: top;
+	}
+	div.ap_settings_div .form-table {
+		margin-top:30px;
+	}
+	
+	div.ap_settings_div .form-table th {
+		background-color:#ccc;
+		padding:20px 10px;
+	}
+	
+	div.ap_shortcode {
+		background-color:#ff4f4f;
+	}
+	
+	div.ap_shortcode code {
+		color:#fff;
+		background-color:#24bbf0;
+	}
+	
+	div.ap_shortcode h4 {
+		color:#252525;
+		background-color:#f9cb49;
+		font-size:16px;
+	}
+	
+	div.ap_shortcode, 
+	.alphabets_section,
+	.ap_numeric_sign,
+	.ap_grouping_div,
+	.ap_reset_sign{
+		border-left:4px solid #fff;
+		padding: 10px 10px 20px 10px;
+		width: 97%;
+	}
+	
+	.alphabets_section {
+		background-color:#f9b41a;
+	}
+	
+		
+	select.ap_taxes[multiple],
+	select.ap_langs[multiple],
+	select.ap_taxes_types[multiple],
+	select.ap_taxes_types_x[multiple]{
+		height: 100px;
+		width: 152px;
+	}
+	select.ap_taxes_types[multiple],
+	select.ap_taxes_types_x[multiple]{
+		width:252px;
+	}
+	
+	#ap_allowed_pages,
+	.ap_post_types {
+		border-left: 4px solid #25bcf0;
+		width:248px;
+	}
+	div.ap_settings_div .hide{
+		display:none;
+	}
+	
+	div.ap_settings_div .doms{
+		display:block;
+		height:60px;
+	}
+	
+	div.ap_settings_div .doms .dom_options{
+		padding:8px;	
+	}
+	
+	div.ap_settings_div div.ap_notes{
+		clear: both;
+		font-size: 12px;
+		line-height: 22px;
+		margin: 20px 0 10px 0px;
+	}
+	div.ap_shortcode > a {
+		color: #000;
+		float: right;
+		font-weight: bold;
+		margin-right: 14px;
+		text-decoration: underline;
+		font-size:12px;
+		border-radius: 20px;
+	}
+	div.ap_settings_div div.ap_caption{
+		font-size: 10px;
+		margin:10px 0 0 0;
+	}
+	
+	.ap_numeric_sign {
+		background-color: #d8ca9e;
+		margin-bottom:15px;
+		padding-top:18px;
+	}
+	
+	.ap_reset_sign {
+		background-color: #FCC;
+		margin-bottom:15px;
+	}	
+	
+	.ap_grouping_div{
+		background-color:#25bcf0;
+		clear:both;
+	}
+	
+	
+	
+	
+	
+	ul.ap_premium {
+		padding:0px;
+		width:98%;
+	}
+	ul.ap_premium li{
+		background:url("../images/pagi-item-bg.png") no-repeat center center;
+		height:36px;
+		line-height:26px;
+		text-align:center;
+		width:42px;
+		padding:0;
+		margin:0px;
+	}
+	
+	ul.ap_premium li a,
+	ul.ap_premium li a:visited {
+		color:#fff;
+		display:block;
+	}
+	
+	ul.layout_H.ap_premium li {
+		display:inline-block;
+		float:none;
+	}
+	
+	ul.layout_V.ap_premium {
+		overflow: hidden;
+		width: 28px;	
+	}
+	ul.layout_V.ap_premium li{
+		padding:2px 2%;
+		margin:0px;
+		width:98%;
+	}
+	
+	
+	ul.ap_premium li a:hover,
+	ul.ap_premium li a.selected,
+	ul.ap_premium li a:hover,
+	ul.ap_premium li a.selected{
+		color:#000;
+		font-weight:bold; 
+		text-decoration:none;
+	}
+	
+	.numeric_reset {
+		width: 100%;
+	}
+		
+
+	.numeric_reset > div {
+		float: left;
+		width: 44%;
+		font-size: 12px;
+	}	
+	
+	.numeric_reset > div:first-child {
+		margin-right: 1%;
+	}	
+	.numeric_reset > div:last-child {
+		float:right;
+	}
+	
+	.numeric_reset > div img {
+		height: 20px;
+		position: relative;
+		top: 6px;
+	}
+		
+	.ap_reset {
+		background: rgba(0, 0, 0, 0) url("../images/reset.png") no-repeat scroll 0 0;
+		background-size: 80%;
+		background-position: center center;
+	}
+	.chameleon_links{
+		color:#fff; 
+		font-weight:bold; 
+		text-decoration:none;
+		position:relative;
+		top:8px;
+	}
+	.ap_preview,
+	.apt_preview{
+		display:none;
+	}
+	.ap_preview img,
+	.apt_preview img {
+	 	max-width: 560px;
+	}
+	/* #Tablet 780px - Mobile 320px */
+
+    @media only screen and (min-width: 320px) and (max-width: 780px) {
+		
+		div.ap_settings_div {
+			background-position:right 15px;
+			background-size:50px 50px;
+		}
+		
+		div.ap_settings_div.wrap h2 {
+			width:75%;
+		}
+		
+		div.ap_settings_div .form-table {
+			margin-top:50px;
+		}
+		
+	}
